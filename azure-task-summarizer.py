@@ -28,7 +28,7 @@ for col in ["Closed Date", "Created Date", "Finish Date", "Start Date"]:
 
 
 # pd.datetime is an alias for datetime.datetime
-previousDate = pd.datetime.today() - timedelta(6)
+previousDate = pd.datetime.today() - timedelta(1)
 
 print("All things that I did on: " + str(previousDate))
 filteredDf = df[(df['Closed Date'] > previousDate.replace(hour=0, minute=0)) & (
