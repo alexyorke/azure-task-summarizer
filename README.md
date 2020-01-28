@@ -18,6 +18,8 @@ Next, create an IFFT action that puts your Google Calendar into a spreadsheet th
 
 To get your organization ID, go to this URL: `https://dev.azure.com/companyname/_apis/projects` and save the id of the project you want to get a report from. Then, go to this URL: `https://dev.azure.com/companyname/_apis/projects/your_project_id` to get the repo id. Replace the company name with your company name slash your project id, then for the project id put the repo id. It's complicated.
 
+Create an Azure task query. Follow the template in `Capture.PNG` in the repo. Go to `https://dev.azure.com/companyname/project/_queries` and then click "Add New Query", then fill in the template.
+
 Also, add in your Google sheet URL to the script (and ensure that it downloads in xlsx form.) Log into your Google account and Azure in Firefox (as the cookies are stored there) before running the script. Substitute your name in the script as shown exactly as in Azure.
 
 ## How to run
